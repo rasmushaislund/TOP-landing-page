@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero {
+    background-image: url("./images/jars-in-shelfs.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
