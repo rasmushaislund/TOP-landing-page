@@ -1,24 +1,95 @@
 * {
     box-sizing: border-box;
+}
+
+html {
+    
+}
+
+body {
+    min-height: 100vh;
+    overflow: auto;
     font-family:'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-logo {
+    max-width: 200px;
+    height: auto;
+}
+
+.hero {
+
+}
+
+.main {
+    margin-top: 3rem;
+}
+
+.main-text1 {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.main-info {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
 }
 
 
+.img-main {
+    max-width: auto;
+    max-height: 200px;
+    border: 0.5rem;
+    border-color: rgba(32, 33, 36, 1);
+}
 
 
+input {
+    max-width: 300px;
+    column-gap: 0.5rem;
+    size: auto;
+}
 
+.message {
+    min-height: 150px;
+}
 
+ul {
+    display: flex;
+    gap: 1.5rem;
+    margin: 0rem;
+}
 
+li {
+    list-style-type: none;
+}
 
+.header-list {
+    text-decoration: none !important;
+}
 
-
-
-
-
-.hero {
-    background-image: url("./images/jars-in-shelfs.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-
+.header-text-black {
+    font-size: 2rem;
+    color: rgba(32, 33, 36, 1);
 }
