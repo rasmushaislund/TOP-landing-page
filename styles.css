@@ -207,22 +207,19 @@ li {
 
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 2rem;
     background-color: rgba(32, 33, 36, 1);
     margin-top: 3rem;
     padding: 2rem 4rem 2rem 4rem;
     font-size: 0.9rem;
+    margin: 3rem 10rem 0rem 10rem;
 }
 
 .address-contact, .terms-cond, .social-media, .credits {
     display: flex;
     flex-direction: column;
     align-items: space-around;
-}
-
-.credits {
-    
 }
 
 .footer-address, .footer-terms, .footer-social, .footer-credits {
